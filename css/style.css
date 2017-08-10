@@ -1,1 +1,314 @@
-hi
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Roboto Slab', serif !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.header-wrapper {
+    top: 0;
+    width: 100%;
+}
+
+header {
+    max-width: 960px;
+    margin: 10px auto;
+    padding: 0 10px;
+   
+}
+
+#contact {
+    font-size: 1.25em;
+    font-weight: bold;
+    text-shadow: 0 4px 2px 0 rgba(0,0,0,0.50);
+    float: right;
+    color: white;
+}
+
+#contact p {
+    margin: 0px;
+}
+
+nav {
+    right: 0px;
+    overflow: hidden;
+    clear: right;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    background-color: rgba(74, 74, 74, 0.8);
+    margin: 0px;
+    float: right;
+}
+
+nav li {
+    display:inline;
+    padding-right: 20px;
+}
+
+nav li:last-child {
+    display:inline;
+    padding-right: 0px;
+}
+
+nav ul a {
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: cornflowerblue;
+}
+
+main {
+    clear: both;
+    margin-top: 10px;
+
+}
+
+
+.main-content {
+    right: 0;
+    left: 0;
+    background: white;
+    overflow: hidden;
+    padding-bottom: 10px;
+
+
+}
+
+.main-content-2 {
+    right: 0;
+    left: 0;
+    background: lightgrey;
+    overflow: hidden;
+
+}
+
+
+.products-small {
+    clear: left;
+    max-width: 960px;
+    margin: 0 auto;
+    
+
+}
+
+.products-small >h1 {
+    margin: 2%;
+}
+
+.products-small h1 {
+    border-bottom: solid 1px;
+}
+
+
+
+
+
+.products-small img {
+    vertical-align: top;
+    width: 77px;
+    float: right;
+}
+
+.products {
+    clear: left;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom:10px;
+    padding: 0 10px;
+  
+}
+
+.products img {
+    vertical-align: top;
+    float: right;
+
+}
+
+.main-content img {
+    float: right;
+    padding: 10px;
+}
+
+
+
+#googleMap {
+    clear: both;
+    max-width: 960px;
+    height:400px;
+    margin-bottom:10px;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #333;
+    clear: both;
+    color: white;
+    overflow: hidden;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+@media (min-width: 800px) {
+
+#logo {
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    clear: both;
+}
+
+
+.intro {
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 1.15em;
+}
+
+.intro h1, .intro p {
+    color: white;
+    background-color: rgba(74, 74, 74, 0.75);
+    margin-left: 50%;
+    padding: 0 10px;
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 0.75em;
+}
+
+.footer-grid {
+    width: 20%;
+    float: left;
+}
+
+.footer-middle {
+    width: 50%;
+    margin-right: 10%;
+    float: left;
+}
+
+
+footer img {
+    max-width: 100px;
+    padding: 10px 0;
+}
+
+.products article {
+    overflow: hidden;
+}
+
+.products-small article {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+    width: 215px;
+    overflow: auto;
+}
+
+}
+
+@media (max-width: 800px) {
+ 
+ 
+    header {
+        max-width: 600px;
+        margin: 10px auto;
+        padding: 0 10px;
+    }
+
+    #logo {
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    nav {
+        overflow: hidden;
+        clear: right;
+    }
+
+    .intro {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.15em;
+    }
+
+    .intro h1, .intro p {
+        color: white;
+        background-color: rgba(74, 74, 74, 0.75);
+        padding: 0 10px;
+    }
+
+    .products-small article {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+    width: 100%;
+
+}
+
+
+
+
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 0.75em;
+}
+
+.footer-grid {
+    width: 100%;
+    padding: 0 10px;
+    float: left;
+}
+
+.footer-middle {
+    width: 100%;
+    padding: 0 10px;
+    float: left;
+}
+
+
+footer img {
+    max-width: 100px;
+    padding: 10px 0;
+    margin-right: 50%;
+}
+
+}
