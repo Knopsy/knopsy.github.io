@@ -136,6 +136,14 @@ main {
     float: right;
 }
 
+
+.error {
+    margin: 2% 1% 2% 2%;
+    clear: left;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 .products {
     clear: left;
     max-width: 960px;
