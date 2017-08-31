@@ -1,4 +1,4 @@
-site.url: "https://www.knopsbeer.co.uk"
+url: "https://www.knopsbeer.co.uk"
 
 plugins:
   - jekyll-sitemap
