@@ -31,6 +31,56 @@
 
     </script>
 
+    <script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "Brewery",
+"@id": "https://brewery.knopsbeer.co.uk",
+"url": "https://www.knopsbeer.co.uk",
+"address": {
+"@type": "PostalAddress",
+"addressLocality": "Dirleton",
+"addressRegion": "East Lothian",
+"postalCode":"EH39 5HQ",
+"streetAddress": "Archerfield Brewery, Archerfield Walled Garden"
+},
+"description": "Knops Brewing is a modern brewery; refining old styles and creating new ones.",
+"name": "Knops Beer Company Ltd.",
+"telephone": "01620 388 588",
+"openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
+"logo": "https://www.knopsbeer.co.uk/img/Knops-Logo-Crest.svg",
+"image": "https://www.knopsbeer.co.uk/img/archerfield-walledgarden.png",
+"sameAs" : 
+[ "http://www.facebook.com/knopsbeer",
+"http://www.twitter.com/@knops_beer"],
+"owns" :
+[
+{"@type": "product",
+"name": "California Common",
+"url": "https://www.knopsbeer.co.uk/California-Common.htm"},
+{"@type": "product",
+"name": "Musselburgh Broke",
+"url": "https://www.knopsbeer.co.uk/Musselburgh-Broke.htm"},
+{"@type": "product",
+"name": "India Pale Ale",
+"url": "https://www.knopsbeer.co.uk/India-Pale-Ale.htm"},
+{"@type": "product",
+"name": "Black Cork",
+"url": "https://www.knopsbeer.co.uk/Black-Cork.htm"},
+{"@type": "product",
+"name": "East Coast Pale Ale",
+"url": "https://www.knopsbeer.co.uk/East-Coast.htm"},
+{"@type": "product",
+"name": "Revolver IPA",
+"url": "https://www.knopsbeer.co.uk/Revolver.htm"},
+{"@type": "product",
+"name": "Cold Fury Lager",
+"url": "https://www.knopsbeer.co.uk/Cold-Fury.htm"}
+]
+}
+</script>
+
+
 </head>
 <body style="background-image: url(img/StackedCasks.jpg);">
 <div class="header-wrapper">
@@ -170,30 +220,31 @@
     </main>
 
 <footer>
-          <div itemscope itemtype="http://schema.org/LocalBusiness" class="footer-content">
+        <div itemscope itemtype="http://schema.org/Brewery" class="footer-content">
             <div class="footer-grid">
                 <img src="img/Knops-Logo-Crest.svg" alt="Knops Brewing Crest"/>
             </div>
 
-            <div class="footer-middle">    
+            <div class="footer-middle"> 
+                <img itemprop="image" src="img/archerfield-walledgarden-footer.png" alt="Knops Brewery" /> 
                 <p><strong itemprop="name">Knops Beer Company Ltd.</strong></p>
                 <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">Brewery Address: 
-<span itemprop="streetAddress">Archerfield Brewery, Archerfield Walled Garden</span>, 
-<span itemprop="addressLocality">Dirleton</span>, 
-<span itemprop="addressRegion">East Lothian</span>, 
-<span itemprop="postalCode">EH39 5HQ</span></p>
+                    <span itemprop="streetAddress">Archerfield Brewery, Archerfield Walled Garden</span>, 
+                    <span itemprop="addressLocality">Dirleton</span>, 
+                    <span itemprop="addressRegion">East Lothian</span>, 
+                    <span itemprop="postalCode">EH39 5HQ</span></p>
                  
                 <p>Registered in Scotland number SC370910. VAT registration number: 984 7823 60</p>
                
             </div>
             <div class="footer-grid">
-                   <h2>Get in touch:</h2>
-                    <p itemprop="telephone">01620 388 588</p>
-                    <p> <a href="mailto:info@knopsbeer.co.uk">
-<span itemprop="email">info@knopsbeer.co.uk</span></a></p>
+                <h2>Get in touch:</h2>
+                <p itemprop="telephone">01620 388 588</p>
+                <p> <a itemprop="email" href="mailto:info@knopsbeer.co.uk">info@knopsbeer.co.uk</a></p>
+                <p> <a itemprop="url" href="https://www.knopsbeer.co.uk">www.knopsbeer.co.uk</a></p>
             </div>
          </div>
-    </footer>
+</footer>
 
 </body>
 </html>
