@@ -227,6 +227,12 @@ footer a {
     float: left;
 }
 
+.footer-middle img {
+    padding: 40px 20px;
+    max-width: 100px;
+    float: right;
+}
+
 
 footer img {
     padding: 10px 20px;
