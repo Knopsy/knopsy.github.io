@@ -105,6 +105,10 @@ main {
 
 }
 
+.main-content li {
+    padding-bottom: 10px;
+}
+
 .main-content-2 {
     right: 0;
     left: 0;
@@ -162,9 +166,12 @@ main {
 .main-content img {
     float: right;
     padding: 10px;
+    clear: both;
 }
 
-
+#SIBA-award-product {
+    padding-right: 30px;
+}
 
 #googleMap {
     clear: both;
