@@ -173,6 +173,15 @@ main {
     padding-right: 30px;
 }
 
+#award-star {
+    padding: 5px;
+    max-width: 77px;
+    z-index: 100;
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
 #googleMap {
     clear: both;
     max-width: 960px;
