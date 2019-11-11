@@ -4,6 +4,19 @@
           box-sizing: border-box;
 }
 
+.rotateimg90 {
+  -webkit-transform:rotate(90deg) translateX(20px) translateY(0px);
+  -moz-transform: rotate(90deg) translateX(20px) translateY(0px);
+  -ms-transform: rotate(90deg) translateX(20px) translateY(0px);
+  -o-transform: rotate(90deg)  translateX(20px) translateY(0px);
+  transform: rotate(90deg) translateX(20px) translateY(0px);
+}
+
+
+
+
+
+
 img {
     max-width: 100%;
     height: auto;
@@ -105,10 +118,6 @@ main {
 
 }
 
-.main-content li {
-    padding-bottom: 10px;
-}
-
 .main-content-2 {
     right: 0;
     left: 0;
@@ -127,25 +136,21 @@ main {
 }
 
 .products-small >h1 {
-    margin: 2% 1% 2% 2%;
+    margin: 2%;
 }
 
 .products-small h1 {
     border-bottom: solid 1px;
 }
 
+
+
+
+
 .products-small img {
     vertical-align: top;
     width: 77px;
     float: right;
-}
-
-
-.error {
-    margin: 2% 1% 2% 2%;
-    clear: left;
-    max-width: 960px;
-    margin: 0 auto;
 }
 
 .products {
@@ -166,21 +171,9 @@ main {
 .main-content img {
     float: right;
     padding: 10px;
-    clear: both;
 }
 
-#SIBA-award-product {
-    padding-right: 30px;
-}
 
-#award-star {
-    padding: 5px;
-    max-width: 77px;
-    z-index: 100;
-    position: relative;
-    top: 5px;
-    right: 5px;
-}
 
 #googleMap {
     clear: both;
@@ -243,15 +236,10 @@ footer a {
     float: left;
 }
 
-.footer-middle img {
-    padding: 40px 20px;
-    max-width: 100px;
-    float: right;
-}
-
 
 footer img {
-    padding: 10px 20px;
+    max-width: 100px;
+    padding: 10px 0;
 }
 
 .products article {
@@ -263,7 +251,6 @@ footer img {
     vertical-align: top;
     margin-left: 2%;
     width: 215px;
-    padding-bottom: 10px;
     overflow: auto;
 }
 
@@ -306,31 +293,37 @@ footer img {
     margin-left: 2%;
     width: 100%;
 
-    }
-
-    .footer-content {
-        max-width: 600px;
-        margin: 0 auto;
-        font-size: 0.75em;
-    }
-
-    .footer-grid {
-        width: 100%;
-        padding: 0 10px;
-        float: left;
-    }
-
-    .footer-middle {
-        width: 100%;
-        padding: 0 10px;
-        float: left;
-    }
+}
 
 
-    footer img {
-        max-width: 100px;
-        padding: 10px 0px;
-        margin-right: 50%;
-    }
+
+
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 0.75em;
+}
+
+.footer-grid {
+    width: 100%;
+    padding: 0 10px;
+    float: left;
+}
+
+.footer-middle {
+    width: 100%;
+    padding: 0 10px;
+    float: left;
+}
+
+
+footer img {
+    max-width: 100px;
+    padding: 10px 0;
+    margin-right: 50%;
+}
+
+}
 
 
